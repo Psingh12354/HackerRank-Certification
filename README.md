@@ -55,11 +55,11 @@ if __name__ == '__main__':
     fptr.write(result + '\n')
 
     fptr.close()
-    ```
+```
    
 ### Python Shape Classes with Area Method 
    
-``
+```
 #!/bin/python3
 
 import math
