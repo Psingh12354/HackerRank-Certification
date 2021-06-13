@@ -1,5 +1,13 @@
-# HackerRank-Certification
-HackerRank Certification Question
+<h1 align=center><b> HackerRank-Certification</b></h1>
+
+## Certificate
+<div float=left>
+  <img src="https://github.com/Psingh12354/Certificates/blob/master/sql.JPG" width="25%" />
+  <img src="https://github.com/Psingh12354/Certificates/blob/master/HackerRank%20Problem%20Solving%20(Basic)).PNG" width="25%" /> 
+  <img src="https://github.com/Psingh12354/Certificates/blob/master/C%2B%2B.PNG" width="25%" />
+</div>
+
+[![Stargazers repo roster for @USERNAME/REPO_NAME](https://reporoster.com/stars/USERNAME/REPO_NAME)](https://github.com/USERNAME/REPO_NAME/stargazers)
 
 ### Python average function
 
