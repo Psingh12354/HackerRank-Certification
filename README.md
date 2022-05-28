@@ -3,9 +3,10 @@
 </div>
 
 <div float=left align=center>
-  <img src="https://github.com/Psingh12354/Certificates/blob/master/sql.JPG" width="25%" />
-  <img src="https://github.com/Psingh12354/Certificates/blob/master/HackerRank%20Problem%20Solving%20(Basic)).PNG" width="25%" /> 
-  <img src="https://github.com/Psingh12354/Certificates/blob/master/C%2B%2B.PNG" width="25%" />
+  <img src="https://github.com/Psingh12354/Certificates/blob/master/sql.JPG" width="20%" />
+  <img src="https://github.com/Psingh12354/Certificates/blob/master/HackerRank%20Problem%20Solving%20(Basic)).PNG" width="20%" /> 
+  <img src="https://github.com/Psingh12354/Certificates/blob/master/C%2B%2B.PNG" width="20%" />
+  <img src= https://github.com/Psingh12354/Certificates/blob/master/HackerRank%20Python(Basic2).PNG width="20%" />
 </div>
 <div float=left align=center>
   <img src="https://github.com/Psingh12354/Certificates/blob/master/badges.JPG" width="80%" />
