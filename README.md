@@ -9,7 +9,7 @@
   <img src= https://github.com/Psingh12354/Certificates/blob/master/HackerRank%20Python(Basic2).PNG width="20%" />
 </div>
 <div float=left align=center>
-  <img src="https://github.com/Psingh12354/Certificates/blob/master/badges.JPG" width="80%" />
+  <img src="https://github.com/Psingh12354/Certificates/blob/master/badges1.JPG" width="80%" />
 </div>
 
 ### Python average function
