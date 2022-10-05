@@ -167,3 +167,14 @@ where std.advisor = fi.employee_id and (fi.gender = 'M' and fi.salary > 15000 or
 select sku,product_name from PRODUCT P left join INVOICE_ITEM Ii on Ii.product_id = P.id where invoice_id is NULL order by SKU;
 ```
 
+### Customer Spending
+
+```
+select b.customer_name,cast(a.total_price as decimal(10,6))amount from customer b, invoice a where a.customer_id=b.id and a.total_price<=(select (0.25*avg(a.total_price)) FROM invoice a) order by amount desc ;
+
+***or***
+
+select customer_name,to_char(total_price,'fm9999999.900000') from customer c, Invoice i where c.id = i.customer_id and total_price < (select (0.25)*sum(total_price)/count(id) from Invoice);
+
+```
+
