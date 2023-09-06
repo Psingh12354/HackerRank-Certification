@@ -14,7 +14,7 @@
 
 ### Python average function
 
-```
+```python
 import math
 import os
 import random
@@ -31,7 +31,7 @@ if __name__ == '__main__':
 
 ### Python Reverse Word and Swap Cases
 
-```
+```python
 #!/bin/python
 
 import math
@@ -70,7 +70,7 @@ if __name__ == '__main__':
    
 ### Python Shape Classes with Area Method 
    
-```
+```python
 #!/bin/python3
 
 import math
@@ -103,7 +103,7 @@ if __name__ == '__main__':
 
 ### Gaming laptop battery life
 
-```
+```python
 def getBattery(events):
     c=50
     for i in events:
@@ -119,7 +119,7 @@ def getBattery(events):
 
 ### String Anagram
 
-```
+```python
 from collections import Counter
 def stringAnagram(dictionary, query):
     # Write your code here
@@ -140,7 +140,7 @@ def stringAnagram(dictionary, query):
 
 ### The Adder Class
 
-```
+```java
 class Adder extends Calculator{
 int add(int a,int b)
 {
@@ -153,7 +153,7 @@ return a+b;
 
 ### Student Advisor
 
-```
+```sql
 select std.roll_number, std.name 
 from student_information std, faculty_information fi 
 where std.advisor = fi.employee_id and (fi.gender = 'M' and fi.salary > 15000 or fi.gender = 'F' and fi.salary > 20000) 
@@ -163,13 +163,13 @@ where std.advisor = fi.employee_id and (fi.gender = 'M' and fi.salary > 15000 or
 
 ### Products without sales
 
-```
+```sql
 select sku,product_name from PRODUCT P left join INVOICE_ITEM Ii on Ii.product_id = P.id where invoice_id is NULL order by SKU;
 ```
 
 ### Customer Spending
 
-```
+```sql
 select b.customer_name,cast(a.total_price as decimal(10,6))amount from customer b, invoice a where a.customer_id=b.id and a.total_price<=(select (0.25*avg(a.total_price)) FROM invoice a) order by amount desc ;
 
 ***or***
